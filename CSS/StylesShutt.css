@@ -1,0 +1,113 @@
+/*MIKE NORRITO SHUTTERBUG BOOTSTRAP 12/3/19*/
+
+/* 
+============================================
+			Font links
+font-family: 'Anton', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Cookie', cursive;
+=============================================
+*/
+
+.container
+{
+	max-width: 960px;
+}
+
+.main
+{
+	background-image: url("../IMAGES/intro.jpg");
+	height: 600px;
+	background-size: cover;
+	padding-top: 35px;
+
+}
+
+
+.main h1
+{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 58px;
+	color: rebeccapurple;
+	font-weight: bold;
+	text-shadow: 3px 2px 7px gray;
+	transition: text-shadow 2s;
+	transition: font-size 3s;
+}
+.main h1:hover
+{
+	text-shadow: black 5px 4px 8px;
+	font-size: 81px;
+
+}
+
+.main h2
+{
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	text-shadow: 2px 2px 15px black;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.btn 
+{
+	font-size: 24px;
+	background-color: rebeccapurple;
+	border-radius: 45px;
+	padding: 14px;
+	color: white;
+	transition: color 1s;
+	transition: transform .5s;
+	
+}
+.btn:hover
+{
+	color: violet;
+	
+}
+.btn:hover
+{
+	transform: scale(1.09);
+}
+.row
+{
+	padding-top: 70px;
+}
+.row h1
+{
+	font-family: 'Cinzel', serif;
+	font-size: 36px;
+}
+.row p
+{
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+}
+#store 
+{
+	text-align: center;
+	border-bottom: 2px solid rebeccapurple;
+	margin-top: 20px;
+	font-family: 'Anton', sans-serif;
+	color: rebeccapurple;
+}
+.footer h1
+{
+	font-size: 23px;
+}
+
+.footer ul
+{
+	list-style-type: none;
+	padding-left: 0px;
+	font-size: 15px;
+}
+
+#store h2 u
+{
+	text-decoration: none;
+	color: violet
+}
