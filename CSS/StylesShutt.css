@@ -95,9 +95,23 @@ font-family: 'Cookie', cursive;
 	font-family: 'Anton', sans-serif;
 	color: rebeccapurple;
 }
+
+.footer 
+{
+	display: block;
+	background-color: rebeccapurple;
+	margin-left: 195px;
+	margin-right: 195px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
 .footer h1
 {
-	font-size: 23px;
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: violet;
+
+
 }
 
 .footer ul
@@ -105,10 +119,28 @@ font-family: 'Cookie', cursive;
 	list-style-type: none;
 	padding-left: 0px;
 	font-size: 15px;
+
+}
+.footer li a
+{
+	color: white;
+	text-decoration: none;
+	transition: color 1s;
+}
+
+.footer li a:hover 
+{
+	color: violet;
 }
 
 #store h2 u
 {
 	text-decoration: none;
-	color: violet
+	color: black;
+}
+
+body 
+{
+	display: block;
+	background-color: #e7ceea;
 }
