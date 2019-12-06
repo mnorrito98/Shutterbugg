@@ -44,7 +44,7 @@ font-family: 'Cookie', cursive;
 }
 .main h1:hover
 {
-	text-shadow: black 5px 4px 8px;
+	text-shadow: gray 5px 4px 8px;
 	font-size: 81px;
 
 }
