@@ -12,12 +12,14 @@ font-family: 'Kaushan Script', cursive;
 font-family: 'Cookie', cursive;
 =============================================
 */
-
+/*CONTAINER*/
 .container
 {
 	max-width: 960px;
 }
 
+
+/*MAIN*/
 .main
 {
 	background-image: url("../IMAGES/intro.jpg");
@@ -26,6 +28,7 @@ font-family: 'Cookie', cursive;
 	padding-top: 35px;
 
 }
+
 
 
 .main h1
@@ -37,6 +40,7 @@ font-family: 'Cookie', cursive;
 	text-shadow: 3px 2px 7px gray;
 	transition: text-shadow 2s;
 	transition: font-size 3s;
+	cursor: none;
 }
 .main h1:hover
 {
@@ -53,6 +57,11 @@ font-family: 'Cookie', cursive;
 	margin-bottom: 40px;
 	margin-top: 30px;
 }
+
+
+
+
+/*BUTTON*/
 .btn 
 {
 	font-size: 24px;
@@ -62,6 +71,9 @@ font-family: 'Cookie', cursive;
 	color: white;
 	transition: color 1s;
 	transition: transform .5s;
+	
+	border: 3px dotted;
+
 	
 }
 .btn:hover
@@ -73,6 +85,10 @@ font-family: 'Cookie', cursive;
 {
 	transform: scale(1.09);
 }
+
+
+
+/*ROW*/
 .row
 {
 	padding-top: 70px;
@@ -87,14 +103,9 @@ font-family: 'Cookie', cursive;
 	font-family: 'Cookie', cursive;
 	font-size: 25px;
 }
-#store 
-{
-	text-align: center;
-	border-bottom: 2px solid rebeccapurple;
-	margin-top: 20px;
-	font-family: 'Anton', sans-serif;
-	color: rebeccapurple;
-}
+
+
+/*FOOTER*/
 
 .footer 
 {
@@ -102,14 +113,16 @@ font-family: 'Cookie', cursive;
 	background-color: rebeccapurple;
 	margin-left: 195px;
 	margin-right: 195px;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 40px;
+	
 }
 .footer h1
 {
 	font-size: 30px;
 	padding-bottom: 20px;
 	color: violet;
+
 
 
 }
@@ -133,14 +146,44 @@ font-family: 'Cookie', cursive;
 	color: violet;
 }
 
+
+
+/*STORE*/
 #store h2 u
 {
 	text-decoration: none;
 	color: black;
+
 }
+#store 
+{
+	text-align: center;
+	border-bottom: 2px solid rebeccapurple;
+	margin-top: 20px;
+	font-family: 'Anton', sans-serif;
+	color: rebeccapurple;
+}
+
+#store a
+{
+	text-decoration: none;
+	
+
+}
+
+#store a:hover
+{
+	text-decoration: underline;
+	text-decoration-color: rebeccapurple;
+
+}
+
+
+/*ANY OTHER*/
 
 body 
 {
 	display: block;
 	background-color: #e7ceea;
 }
+
